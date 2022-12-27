@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 }
+body{
+    background-color: #D8D8D8;
+}
 .food-cards{
     display: flex;
     justify-content: center;
@@ -12,7 +15,8 @@
 }
 .card{
     width: 360px;
-    border-radius: 16px
+    border-radius: 16px;
+    background-color: ghostwhite;
 }
 .card > img{
     display: block;
