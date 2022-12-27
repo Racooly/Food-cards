@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.food-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 40px;
+}
+.card{
+    width: 360px;
+    background-color: aquamarine;
+    border-radius: 16px
+}
+.card > img{
+    display: block;
+}
+.pizza{
+    margin-bottom: 32px;
+}
+.name{
+    padding: 0px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    font-weight: 400;
+    font-size: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.vectors{
+    display: flex;
+    gap: 9px;
+}
+.fire{
+    width: 24px;
+    height: 24px;
+    background: #F8593B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wheat{
+    width: 24px;
+    height: 24px;
+    background: #F8593B;
+    border-radius: 50%;
+    background: #FFC22B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
