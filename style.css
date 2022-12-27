@@ -56,9 +56,17 @@ h2{
 .wheat{
     width: 24px;
     height: 24px;
-    background: #F8593B;
     border-radius: 50%;
     background: #FFC22B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leaf{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #2ECC71;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,9 +74,10 @@ h2{
 .desc{
     font-size: 16px;
     color: #6E798C;
-    margin-bottom: 24px;
+    max-height: 75px;
 }
 .info{
+    margin-top: 24px;
     display: flex;
     justify-content: space-between;
     color: #A5ADBB;
