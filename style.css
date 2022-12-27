@@ -21,11 +21,14 @@
 .pizza{
     margin-bottom: 32px;
 }
-.name{
+.card-body{
     padding: 0px 24px;
+}
+.name{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 24px;
 }
 h2{
     font-weight: 400;
@@ -56,4 +59,21 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.desc{
+    font-size: 16px;
+    color: #6E798C;
+    margin-bottom: 24px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    color: #A5ADBB;
+    margin-bottom: 33px;
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
