@@ -12,7 +12,6 @@
 }
 .card{
     width: 360px;
-    background-color: aquamarine;
     border-radius: 16px
 }
 .card > img{
@@ -71,9 +70,36 @@ h2{
     color: #A5ADBB;
     margin-bottom: 33px;
 }
-.prices{
+.ordering{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin-bottom: 30px;
+}
+.prices{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.new{
+    font-weight: 400;
+    font-size: 28px;
+}
+.old{
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration-line: line-through;
+    color: #F8593B;
+}
+button{
+    background: #2ECC71;
+    border-radius: 4px;
+    width: 114px;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    font-size: 14px;
 }
