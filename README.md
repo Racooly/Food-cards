@@ -1,2 +1,2 @@
 # Food-cards
-this is food card with HTML and CSS
+this is food cards with HTML and CSS
