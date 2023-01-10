@@ -127,5 +127,11 @@ button{
 .search{
     display: flex;
     justify-content: center;
+    gap: 15px;
     margin-top: 30px;
+}
+#searchBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
 }

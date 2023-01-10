@@ -11,11 +11,12 @@
 </head>
 <body>
    <div class="search">
-    <input type="text" name="" id="searchbar" placeholder="Search...">
+    <input type="text" id="searchbar" placeholder="Search..." onkeyup="search()">
+    
    </div> 
     <div class="food-cards">
         <!--Pizza card-->
-        <div class="card">
+        <div class="card" id="Name">
             <img class="pizza" src="imgs/pizza.svg" alt="pizza">
            <div class="card-body"> 
             <!--body starts here-->
@@ -48,7 +49,7 @@
            </div>  
         </div> 
         <!--Tortellini card-->
-        <div class="card">
+        <div class="card" id="Name">
             <img class="pizza" src="imgs/tortellini.svg" alt="pizza">
            <div class="card-body"> 
             <div class="name">
@@ -82,7 +83,7 @@
            </div>  
         </div> 
         <!--Strawberry cake-->
-        <div class="card">
+        <div class="card" id="Name">
             <img class="pizza" src="imgs/cake.svg" alt="cake">
            <div class="card-body"> 
             <div class="name">
@@ -109,12 +110,12 @@
             </div>
            </div>  
         </div> 
-        <div class="card">
-            <img class="pizza" src="imgs/pizza.svg" alt="pizza">
+        <div class="card" id="Name">
+            <img class="pizza" src="imgs/achma.svg" alt="pizza">
            <div class="card-body"> 
             <!--body starts here-->
             <div class="name">
-                <h2 id="foodName">Pepperoni Pizza</h2>
+                <h2 id="foodName">Achma</h2>
                 <div class="vectors">
                     <div class="fire">
                         <img src="imgs/Fire.svg" alt="fire">
@@ -124,33 +125,28 @@
                     </div>
                 </div>
             </div>
-            <p class="desc">Premium pepperoni and cheese is made with real 
-             mozzarella on original hand-tossed crust.</p>
+            <p class="desc">Achma is a kind of xawapuri which is traditionally prepared in the Adjara and Abkhazia regions.</p>
              <!--info and prices-->
             <div class="info">
-                <p>256Cal</p>
+                <p>556Cal</p>
                 <p>P/F/C: 12/10/31</p>
-                <p>53.8 °C</p>
+                <p>45.8 °C</p>
             </div>
             <div class="ordering">
                <div class="prices">
-                <p class="new">$23.90</p>
-                <p class="old">$29.90</p>
+                <p class="new">$29.90</p>
+                <p class="old">$39.90</p>
                </div>  
                 <button>ORDER</button>
             </div>
            </div>  
         </div> 
-        <!--Tortellini card-->
-        <div class="card">
-            <img class="pizza" src="imgs/tortellini.svg" alt="pizza">
+        <div class="card" id="Name">
+            <img class="pizza" src="imgs/Khachapuri.svg" alt="pizza">
            <div class="card-body"> 
             <div class="name">
-                <h2 id="foodName">Tortellini</h2>
+                <h2 id="foodName">khachapuri</h2>
                 <div class="vectors">
-                    <div class="leaf">
-                        <img src="imgs/leaf.svg" alt="leaf">
-                    </div>
                     <div class="fire">
                         <img src="imgs/Fire.svg" alt="fire">
                     </div>
@@ -159,44 +155,49 @@
                     </div>
                 </div>
             </div>
-            <p class="desc">Pasta stuffed with beef and pork topped with your choice of 
-                cream sauce with bacon or bolognese.</p>
+            <p class="desc">Khachapuri is a traditional Georgian dish of cheese-filled bread.
+                It is very popular in Georgia, both in restaurants and as street food.
+            </p>
             <div class="info">
-                <p>270Cal</p>
+                <p>570Cal</p>
                 <p>P/F/C: 18/4/41</p>
-                <p>42.4 °C</p>
+                <p>34.4 °C</p>
             </div>
             <div class="ordering">
                <div class="prices">
-                <p class="new">$17.90</p>
-                <p class="old">$22.90</p>
+                <p class="new">$27.90</p>
+                <p class="old">$52.90</p>
                </div>  
                 <button>ORDER</button>
             </div>
            </div>  
         </div> 
-        <div class="card">
-            <img class="pizza" src="imgs/cake.svg" alt="cake">
+        <div class="card" id="Name">
+            <img class="pizza" src="imgs/Khinkali.svg" alt="pizza">
            <div class="card-body"> 
             <div class="name">
-                <h2 id="foodName">Strawberry cake</h2>
+                <h2 id="foodName">khinkali</h2>
                 <div class="vectors">
+                    <div class="fire">
+                        <img src="imgs/Fire.svg" alt="fire">
+                    </div>
                     <div class="wheat">
                         <img src="imgs/wheat.svg" alt="wheat">
                     </div>
                 </div>
             </div>
-            <p class="desc">Three layer strawberry dessert is not only beautiful looking,
-                 but also delicious! Perfect dessert for spring and summer.</p>
+            <p class="desc">The fillings of khinkali vary with the area. The original recipe, 
+                the so-called khevsuruli.
+            </p>
             <div class="info">
-                <p>346Cal</p>
-                <p>P/F/C: 6/14/49</p>
-                <p>13.9 °C</p>
+                <p>570Cal</p>
+                <p>P/F/C: 18/4/41</p>
+                <p>34.4 °C</p>
             </div>
             <div class="ordering">
                <div class="prices">
-                <p class="new">$13.90</p>
-                <p class="old">$18.90</p>
+                <p class="new">$27.90</p>
+                <p class="old">$52.90</p>
                </div>  
                 <button>ORDER</button>
             </div>
