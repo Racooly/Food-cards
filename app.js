@@ -6,6 +6,7 @@ function search(){
     for(let i = 0 ; i < Name.length ; i++){
         if(!Name[i].innerHTML.includes(input)){
         Name[i].style.display = "none"
+        console.log('if shesrulda')
     }else{
         Name[i].style.display = "inline"
     }
